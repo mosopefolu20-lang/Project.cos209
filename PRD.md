@@ -18,7 +18,7 @@ They will use the platform to manage their food menus, update prices and availab
 ### 3.3 Administrator
 The administrator will oversee the platform, manage user and vendor accounts and ensure the system works properly.
  
- ## 4. User Research
+ ## 4. User Stories
  ### 4.1 Research Method
  Primary research was conducted through interviews with 4 Babcock students. The interviews focused on students waiting times when purchasing food, their frequently visited food vendors, their awerness of the closure of food outlets, how the closure has affected the food buying experience and their willingness to use a food ordering system.
 
@@ -84,14 +84,49 @@ The  following may be considered for future versions:
 2. Customer reviews and ratings
 3. AI based food recommendation.
 
-## 8. Success Metrics
+## 8. Functional Requirements
+
+The functional requirements describe the main operations that Babcock FoodEase must support.
+
+### 8.1 Student Requirements
+
+- The system shall allow students to register and log in.
+- The system shall allow students to view available food vendors.
+- The system shall display food names, pictures, descriptions and prices.
+- The system shall allow students to add multiple items from one vendor to their cart.
+- The system shall allow students to place orders and make online payments.
+- The system shall display estimated preparation times provided by vendors.
+- The system shall notify students when their orders are ready for collection.
+- The system shall allow students to cancel orders before preparation begins.
+- The system shall allow students to view their order status.
+
+### 8.2 Vendor Requirements
+
+- The system shall allow vendors to log in to their accounts.
+- The system shall allow vendors to add, edit and remove food items from their menus.
+- The system shall allow vendors to update food prices and availability.
+- The system shall notify vendors when new orders are received.
+- The system shall allow vendors to accept or reject incoming orders.
+- The system shall allow vendors to provide estimated preparation times.
+- The system shall allow vendors to update order statuses.
+- The system shall allow vendors to mark orders as ready for collection.
+
+### 8.3 Administrator Requirements
+
+- The system shall allow administrators to log in securely.
+- The system shall allow administrators to manage student and vendor accounts.
+- The system shall allow administrators to monitor platform activities.
+- The system shall allow administrators to handle reported complaints.
+- The system shall allow administrators to suspend accounts when necessary.
+
+## 9. Success Metrics
 1. Reduced waiting time: Compare students waiting time before and after using the platform
 2. Order completion rate: Measure the percentage of orders successfully completed and collected
 3. Student Satisfaction: Gather feedback from students about their experience using the application 
 4. Vendor participation: Monitor the number of food vendors actively using the platforms
 5. System Reliability: Monitor failed orders, payment errors and system downtime.
 
-## 9. Risks and limitations
+## 10. Risks and limitations
 The following explain thethings that could make Babcock FoodEase difficult to develop:
 1. Internet connectivity might be unreliable
 2. Online payments might fail
